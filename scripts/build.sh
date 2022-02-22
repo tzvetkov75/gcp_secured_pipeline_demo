@@ -1,2 +1,2 @@
 # Builds the application
-pip install -r ./src/requirement.txt
+pip install -r ./src/requirements.txt
