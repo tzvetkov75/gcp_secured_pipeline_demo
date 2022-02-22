@@ -7,6 +7,6 @@ Simple web application to demonstrate the GitHub integration with GCP including 
 _TBD_
 
 ## Open issues 
-
+- GKE policy least priv 
  _TBD_
 
