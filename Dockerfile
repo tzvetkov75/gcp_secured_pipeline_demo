@@ -12,8 +12,8 @@
 
 FROM python
 
-COPY src  .
-COPY scripts  .
+ADD src  .
+ADD scripts  .
 
 WORKDIR .
 
