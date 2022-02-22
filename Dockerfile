@@ -22,6 +22,6 @@ ARG GITHUB_REF
 ENV SHA=$GITHUB_SHA
 ENV REF=$GITHUB_REF
 
-RUN scripts/build.sh
+RUN pip install -r ./src/requirements.txt
 
-CMD script/run.sh
+CMD python3 ./src/web_app.py
