@@ -13,15 +13,14 @@
 FROM python
 
 WORKDIR /app
-ADD ./src  .
-ADD ./scripts  .
+COPY ./src  src
+COPY ./scripts scripts
 
 
 ARG GITHUB_SHA
 ARG GITHUB_REF
 ENV SHA=$GITHUB_SHA
 ENV REF=$GITHUB_REF
-
-RUN pip install -r ./src/requirements.txt
+RUN pip3 install -r src/requirements.txt
 
 CMD python3 ./src/web_app.py
