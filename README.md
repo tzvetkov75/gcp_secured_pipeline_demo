@@ -6,7 +6,7 @@ Simple web application to demonstrate the GitHub integration with GCP including 
 
 _TBD_
 
-## Openissues 
+## Open issues 
 
  _TBD_
 
