@@ -12,10 +12,10 @@
 
 FROM python
 
-ADD src  .
-ADD scripts  .
+WORKDIR /app
+ADD ./src  .
+ADD ./scripts  .
 
-WORKDIR .
 
 ARG GITHUB_SHA
 ARG GITHUB_REF
